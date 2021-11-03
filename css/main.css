@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.text-tim {
+  color: #7b4394 !important;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: linear-gradient(to right, #7b4394, #d22732);
+}
+.navbar .navar-chuto {
+  font-size: 1.5rem;
+}
+
+.radio-button .form-check-input:checked {
+  background-color: #7b4394;
+  border-color: #7b4394;
+}
+
+.khoangcach {
+  margin: 60px;
+}
+.whereyougo .fw-400 {
+  font-size: 4.3rem;
+  font-weight: 300;
+}
+
+.whereyougo .content-whereyougo .text-content-whereyougo {
+  text-align: left;
+}
+.whereyougo .content-whereyougo .text-content-whereyougo .chuhangduoi {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.whereyougo .content-whereyougo .text-content-whereyougo .chuhangduoi {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.whereyougo .content-whereyougo .icon-content-whereyougo .text-icon {
+  font-size: 1.5rem;
+}
+footer {
+  background-color: #ebebeb;
+}
+
+.phan1 .phan1-content .phan1-content-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.phan1 .phan1-content .phan1-content-nhoxiu {
+  font-size: 0.9rem;
+}
+.phan3 .phan3-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.phan3 .phan3-icon {
+  font-size: 5rem;
+}
+
+.phan3 .after-boder-left {
+  position: relative;
+}
+.phan3 .after-boder-left::after {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.2) !important;
+  content: "";
+  width: 1px;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
